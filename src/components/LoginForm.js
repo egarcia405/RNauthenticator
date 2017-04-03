@@ -50,7 +50,7 @@ import { Button, Card, CardSection, Input, Spinner } from './common';
       <Card>
         <CardSection>
           <Input
-          placeholder="user@domain.com"
+          placeholder="user@email.com"
            label="Email"
            value={this.state.email}
            onChangeText = {email => this.setState({ email })}
